@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/country-lookup/static/css/main.f5d03f28.chunk.css",
-    "main.js": "/country-lookup/static/js/main.16b2fb74.chunk.js",
-    "main.js.map": "/country-lookup/static/js/main.16b2fb74.chunk.js.map",
-    "runtime-main.js": "/country-lookup/static/js/runtime-main.55010d06.js",
-    "runtime-main.js.map": "/country-lookup/static/js/runtime-main.55010d06.js.map",
-    "static/js/2.c0f5d32c.chunk.js": "/country-lookup/static/js/2.c0f5d32c.chunk.js",
-    "static/js/2.c0f5d32c.chunk.js.map": "/country-lookup/static/js/2.c0f5d32c.chunk.js.map",
+    "main.css": "/country-lookup/static/css/main.fc183ae0.chunk.css",
+    "main.js": "/country-lookup/static/js/main.d644ef0f.chunk.js",
+    "main.js.map": "/country-lookup/static/js/main.d644ef0f.chunk.js.map",
+    "runtime-main.js": "/country-lookup/static/js/runtime-main.0bd26838.js",
+    "runtime-main.js.map": "/country-lookup/static/js/runtime-main.0bd26838.js.map",
+    "static/js/2.a140cefb.chunk.js": "/country-lookup/static/js/2.a140cefb.chunk.js",
+    "static/js/2.a140cefb.chunk.js.map": "/country-lookup/static/js/2.a140cefb.chunk.js.map",
+    "static/js/3.f4b548bc.chunk.js": "/country-lookup/static/js/3.f4b548bc.chunk.js",
+    "static/js/3.f4b548bc.chunk.js.map": "/country-lookup/static/js/3.f4b548bc.chunk.js.map",
     "index.html": "/country-lookup/index.html",
-    "precache-manifest.80f01fc11de5f12f2af7262343c88de8.js": "/country-lookup/precache-manifest.80f01fc11de5f12f2af7262343c88de8.js",
+    "precache-manifest.411e50a61d569ec620e3cb24abf83458.js": "/country-lookup/precache-manifest.411e50a61d569ec620e3cb24abf83458.js",
     "service-worker.js": "/country-lookup/service-worker.js",
-    "static/css/main.f5d03f28.chunk.css.map": "/country-lookup/static/css/main.f5d03f28.chunk.css.map",
-    "static/js/2.c0f5d32c.chunk.js.LICENSE.txt": "/country-lookup/static/js/2.c0f5d32c.chunk.js.LICENSE.txt"
+    "static/css/main.fc183ae0.chunk.css.map": "/country-lookup/static/css/main.fc183ae0.chunk.css.map",
+    "static/js/2.a140cefb.chunk.js.LICENSE.txt": "/country-lookup/static/js/2.a140cefb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.55010d06.js",
-    "static/js/2.c0f5d32c.chunk.js",
-    "static/css/main.f5d03f28.chunk.css",
-    "static/js/main.16b2fb74.chunk.js"
+    "static/js/runtime-main.0bd26838.js",
+    "static/js/2.a140cefb.chunk.js",
+    "static/css/main.fc183ae0.chunk.css",
+    "static/js/main.d644ef0f.chunk.js"
   ]
 }
