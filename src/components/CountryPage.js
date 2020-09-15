@@ -10,7 +10,6 @@ class CountryPage extends Component {
     let id = this.props.match.params.country_id;
     axios.get(`https://restcountries.eu/rest/v2/alpha/` + id).then((res) => {
       this.setState({ country: res.data });
-      console.log(res);
     });
   }
 
@@ -28,10 +27,18 @@ class CountryPage extends Component {
     return n.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,");
   };
 
+  checkIfExist = (a) => {
+    if (a.length > 0) {
+      return a;
+    } else {
+      return <>N/A</>;
+    }
+  };
+
   renderCountry = () => {
     const { country } = this.state;
     if (country === null) {
-      return <div>Loading</div>;
+      return <div className>Loading...</div>;
     } else {
       return (
         <div className="info-container">
@@ -43,37 +50,44 @@ class CountryPage extends Component {
             <div className="country-sub-info">
               <div className="country-sub-info-col-1">
                 <p>
-                  <span>Region:</span> {country.region}
+                  <span>Region:</span> {this.checkIfExist(country.region)}
                 </p>
                 <p>
-                  <span>Subregion:</span> {country.subregion}
+                  <span>Subregion:</span> {this.checkIfExist(country.subregion)}
                 </p>
                 <p>
-                  <span>Native name:</span> {country.nativeName}
+                  <span>Native name:</span>{" "}
+                  {this.checkIfExist(country.nativeName)}
                 </p>
                 <p>
-                  <span>Capital:</span> {country.capital}
+                  <span>Capital:</span> {this.checkIfExist(country.capital)}
                 </p>
               </div>
               <div className="country-sub-info-col-2">
                 <p>
                   <span>Population:</span>{" "}
-                  {this.formatNumbers(country.population)}
+                  {this.checkIfExist(this.formatNumbers(country.population))}
                 </p>
                 <p>
-                  <span>Language:</span> {this.reduceObjects(country.languages)}
+                  <span>Language:</span>{" "}
+                  {this.checkIfExist(this.reduceObjects(country.languages))}
                 </p>
                 <p>
                   <span>Currency:</span>{" "}
-                  {this.reduceObjects(country.currencies)}
+                  {this.checkIfExist(this.reduceObjects(country.currencies))}
                 </p>
                 <p>
-                  <span>Top level domain:</span> {country.topLevelDomain}
+                  <span>Top level domain:</span>{" "}
+                  {this.checkIfExist(country.topLevelDomain)}
                 </p>
               </div>
             </div>
             <p>
-              <a href={`https://en.wikipedia.org/wiki/` + country.name}>
+              <a
+                className="wikipedia"
+                target="blank"
+                href={`https://en.wikipedia.org/wiki/` + country.name}
+              >
                 Wikipedia page
               </a>
             </p>

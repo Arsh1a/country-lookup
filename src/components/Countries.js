@@ -1,4 +1,5 @@
 import React from "react";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Countries = (props) => {
   const formatNumbers = (n) => {
@@ -7,7 +8,7 @@ const Countries = (props) => {
   return (
     <React.Fragment>
       <div className="country-image">
-        <img src={props.flag} alt={props.name + " flag"} />
+        <LazyLoadImage alt={props.name + " flag"} src={props.flag} />
       </div>
       <div className="country-info">
         <p className="country-name">{props.name}</p>
