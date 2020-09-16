@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/country-lookup/static/css/main.fc183ae0.chunk.css",
-    "main.js": "/country-lookup/static/js/main.d644ef0f.chunk.js",
-    "main.js.map": "/country-lookup/static/js/main.d644ef0f.chunk.js.map",
-    "runtime-main.js": "/country-lookup/static/js/runtime-main.0bd26838.js",
-    "runtime-main.js.map": "/country-lookup/static/js/runtime-main.0bd26838.js.map",
-    "static/js/2.a140cefb.chunk.js": "/country-lookup/static/js/2.a140cefb.chunk.js",
-    "static/js/2.a140cefb.chunk.js.map": "/country-lookup/static/js/2.a140cefb.chunk.js.map",
-    "static/js/3.f4b548bc.chunk.js": "/country-lookup/static/js/3.f4b548bc.chunk.js",
-    "static/js/3.f4b548bc.chunk.js.map": "/country-lookup/static/js/3.f4b548bc.chunk.js.map",
+    "main.css": "/country-lookup/static/css/main.13772ba5.chunk.css",
+    "main.js": "/country-lookup/static/js/main.aa93f294.chunk.js",
+    "main.js.map": "/country-lookup/static/js/main.aa93f294.chunk.js.map",
+    "runtime-main.js": "/country-lookup/static/js/runtime-main.97fd0422.js",
+    "runtime-main.js.map": "/country-lookup/static/js/runtime-main.97fd0422.js.map",
+    "static/js/2.a796a981.chunk.js": "/country-lookup/static/js/2.a796a981.chunk.js",
+    "static/js/2.a796a981.chunk.js.map": "/country-lookup/static/js/2.a796a981.chunk.js.map",
+    "static/js/3.a83b3a3e.chunk.js": "/country-lookup/static/js/3.a83b3a3e.chunk.js",
+    "static/js/3.a83b3a3e.chunk.js.map": "/country-lookup/static/js/3.a83b3a3e.chunk.js.map",
+    "static/js/4.f7e385be.chunk.js": "/country-lookup/static/js/4.f7e385be.chunk.js",
+    "static/js/4.f7e385be.chunk.js.map": "/country-lookup/static/js/4.f7e385be.chunk.js.map",
     "index.html": "/country-lookup/index.html",
-    "precache-manifest.411e50a61d569ec620e3cb24abf83458.js": "/country-lookup/precache-manifest.411e50a61d569ec620e3cb24abf83458.js",
+    "precache-manifest.e2fb128575142fa0f5081b9b7abed36d.js": "/country-lookup/precache-manifest.e2fb128575142fa0f5081b9b7abed36d.js",
     "service-worker.js": "/country-lookup/service-worker.js",
-    "static/css/main.fc183ae0.chunk.css.map": "/country-lookup/static/css/main.fc183ae0.chunk.css.map",
-    "static/js/2.a140cefb.chunk.js.LICENSE.txt": "/country-lookup/static/js/2.a140cefb.chunk.js.LICENSE.txt"
+    "static/css/main.13772ba5.chunk.css.map": "/country-lookup/static/css/main.13772ba5.chunk.css.map",
+    "static/js/2.a796a981.chunk.js.LICENSE.txt": "/country-lookup/static/js/2.a796a981.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.0bd26838.js",
-    "static/js/2.a140cefb.chunk.js",
-    "static/css/main.fc183ae0.chunk.css",
-    "static/js/main.d644ef0f.chunk.js"
+    "static/js/runtime-main.97fd0422.js",
+    "static/js/2.a796a981.chunk.js",
+    "static/css/main.13772ba5.chunk.css",
+    "static/js/main.aa93f294.chunk.js"
   ]
 }

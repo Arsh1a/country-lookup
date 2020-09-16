@@ -28,7 +28,7 @@ class CountryPage extends Component {
   };
 
   checkIfExist = (a) => {
-    if (a.length > 0) {
+    if (a.length > 0 || a === "Antarctica") {
       return a;
     } else {
       return <>N/A</>;
@@ -38,7 +38,7 @@ class CountryPage extends Component {
   renderCountry = () => {
     const { country } = this.state;
     if (country === null) {
-      return <div className>Loading...</div>;
+      return <div>Loading...</div>;
     } else {
       return (
         <div className="info-container">

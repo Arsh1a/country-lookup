@@ -91,7 +91,7 @@ class Home extends Component {
             countries.map((country) => {
               return (
                 <div key={country.alpha3Code} className="item-card">
-                  <Link to={"/country-lookup/" + country.alpha3Code}>
+                  <Link to={"/" + country.alpha3Code}>
                     <Suspense fallback={<div></div>}>
                       <Countries
                         flag={country.flag}

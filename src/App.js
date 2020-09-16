@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import "./styles.css";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Route, Switch, HashRouter } from "react-router-dom";
 import CountryPage from "./components/CountryPage";
 
 const App = () => {
@@ -24,15 +24,15 @@ const App = () => {
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className={darkMode ? "dark-mode" : "light-mode"}>
         <Navbar toggle={setDarkMode} darkMode={darkMode} />
         <Switch>
-          <Route exact path="/country-lookup" component={Home} />
-          <Route path="/country-lookup/:country_id" component={CountryPage} />
+          <Route exact path="/" component={Home} />
+          <Route path="/:country_id" component={CountryPage} />
         </Switch>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
